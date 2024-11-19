@@ -1,0 +1,402 @@
+/* .home_section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+ .Main{
+    position: relative;
+    top: -7.2rem;
+    z-index: -1;
+    font-family: brandon-grotesque, sans-serif!important; 
+ }
+
+ .home_section{
+   padding: 0% 10% 0% 10%!important;
+   
+ }
+
+/* hero section */
+ #hero{
+   background: transparent linear-gradient(301deg, #D5E7FC 0%, #B8D8FF 30%, #EBF4FF 80%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+   height: 60vh;
+   /* padding: 6%!important; */
+   padding-bottom: 0!important;
+}
+
+ .hero-inner{
+    /* background-image: url('banner-image.webp'); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+ }
+
+ .hero-image{
+   width: 40%;
+   height: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+ }
+
+ .hero-text{
+   /* width: 50%; */
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+
+ .hero-text h1{
+   color: #081321;
+   font-size: 60px;
+   line-height: 50px;
+   font-family: sans-serif;
+   font-weight: 800;
+ }
+
+ .para{
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 25px;
+ }
+
+ .hero-text p{
+   max-width: 468px;
+   color: #081321;
+   padding-right: 0px;
+   padding-bottom: 48px;
+ }
+
+ .hero-button a{
+   display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #5581B8;
+ }
+
+ #training-program{
+   /* padding: 6%!important; */
+   background-color: white;
+   padding-top: 3%!important;
+ }
+
+ .training-text{
+   width: 60%;
+ }
+
+ .training-text h1{
+   letter-spacing: 0.3px;
+   font-weight: 700;
+   padding-bottom: 12px;
+   margin-bottom: 0px;
+   color: #081321;
+   font-size: 48px;
+   line-height: 60px;
+ }
+
+ .training-text p{
+   color: #081321;
+ }
+
+
+ .training-cards{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 6%;
+ }
+
+ .card {
+   height: 30rem;
+   background-color: white;
+   border: 1px solid rgba(8, 19, 33, 0.2);;
+   width: 27%;
+   border-radius: 10px;
+   padding: 20px;
+   transition: background-color 0.3s ease; /* Smooth hover effect */
+   position: relative;
+   z-index: 1;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card:hover {
+   background-color: #5581B8; /* Change background color on hover */
+}
+
+.card p{
+   font-size: 20px;
+   line-height: 28px;
+   letter-spacing: 0.13px;
+   font-weight: 400;
+   margin-top: 0px;
+   margin-bottom: 28px;
+   color: rgba(8, 19, 33, 0.8);
+}
+
+.card h5{
+   color: #081321;
+   font-size: 24px;
+   line-height: 30px;
+   letter-spacing: 0.15px;
+   font-weight: 700;
+   margin-top: 24px;
+   margin-bottom: 12px;
+}
+
+ 
+
+#annouoncements{
+  background-color: #5581B8;
+  font-family: brandon-grotesque, sans-serif !important;
+  padding: 3% 13% 5% 13% !important;
+}
+
+.announcements-text{
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+#annouoncements .card{
+  height: 28rem;
+   background-color: transparent!important;
+   border: none;
+   width: 29%;
+   border-radius: 10px;
+   padding: 20px;
+   transition: background-color 0.3s ease; /* Smooth hover effect */
+   position: relative;
+   z-index: 1;
+}
+
+.announcements_cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.announcements_cards .card_image img{
+  border-radius: 18px!important;
+  height: 170px;
+}
+
+.announcements_cards .card_image{
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.announcements_cards h2{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  color: white;
+}
+
+.announcements_cards p{
+  line-height: 28px;
+  font-size: 20px;
+  color: white;
+}
+
+.ann-button{
+  width: 40%;
+  background-color: white;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.ann-button a{
+  color: #5581B8;
+}
+
+.ann-button a:hover{
+  color: black;
+  cursor: pointer;
+}
+
+/* about */
+#about{
+  background: transparent linear-gradient(180deg, #224E85 0%, #08112A 100%) 0% 0% no-repeat padding-box;
+  font-family: brandon-grotesque, sans-serif !important;
+  padding: 3% 10% 3% 10% !important;
+}
+
+.about-image-text{
+  display: flex;
+  align-items: center;
+}
+
+.about-image img{
+  width: 110%;
+}
+
+.about-text{
+  height: 100%;
+  width: 75%;
+  padding: 3% 5%;
+  background-color: white;
+  margin-left: -10%;
+}
+
+.about-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+/* map */
+
+#map{
+  padding: 3% 10% 3% 10% !important;
+  background-color: white;
+  text-align: center;
+}
+
+.map-text{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.map-text p{
+  color: black;
+}
+
+.map-text h1{
+  margin-bottom: 0;
+}
+
+.map{
+  text-align: center;
+}
+
+
+/* Coaches */
+
+#coaches .training-text .para{
+  width: 78%;
+}
+
+.head_coach{
+  background: transparent linear-gradient(180deg, #5581B8 0%, #2B415C 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000017;
+    padding: 39px 54px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+
+.coach-card{
+  background: #EAEFF6 0% 0% no-repeat padding-box !important;
+  border-radius: 8px !important;
+  color: #081321 !important;
+  padding: 36px 39px !important;
+  width: 347px;
+}
+
+
+@media (max-width: 768px) {
+  .hero-image {
+      display: none;
+  }
+
+  .hero-text h1{
+     color: #081321;
+     font-size: 36px;
+     font-weight: 600;
+   }
+
+   
+.training-cards{
+  flex-direction: column;
+}
+
+.card{
+  width: 90%;
+}
+
+.training-text{
+  width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+   .hero-image{
+      width: 45%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   #hero{
+      height: 35vh;
+      padding-bottom: 6%!important;
+   }
+
+   .card{
+      width: 40%;
+    }
+
+    .training-text{
+      width: 100%;
+    }
+
+    /* Custom Arrow Button Styling */
+.custom-prev, .custom-next {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 16px;
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+
+}
